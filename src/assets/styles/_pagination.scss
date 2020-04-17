@@ -1,0 +1,27 @@
+
+.pagination {
+    display: inline-block;
+
+    a {
+        color: $pagination-color;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-size: $default-font;
+        transition: backrground-color .3s;
+        border: 2px solid $pagination-border; 
+        margin: 0 .5rem;
+        
+        &:hover:not(.active) {
+            background-color: $pagination-bg__hover;
+            color: $pagination-color__hover;
+        }
+
+    }
+
+    .active {
+        background-color: $pagination-bg__active;
+        color: $pagination-color__active;
+        border: 1px solid $pagination-border__active;
+    }
+
+}

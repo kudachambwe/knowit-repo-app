@@ -1,0 +1,39 @@
+button {
+    appearance: none;
+    border: 1px solid $button-bg; 
+    background-color: $button-bg;
+    border-radius: 50%;
+    cursor: pointer;
+    color: $button-color;
+    font-size: 1rem;
+    font-weight: bold;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        border: 2px solid $button-border__hover;
+        background-color: $button-bg__hover;
+        color: $button-color__hover;
+        outline: 0;
+    }
+}
+
+/* Links */
+
+.link {
+    color: $link-color; 
+
+    &:visited {
+        color: $link__visited;
+    }
+
+    &:hover {
+        color: $link__hover; 
+    }
+
+    &:active {
+        color: $link__active;
+    }
+}

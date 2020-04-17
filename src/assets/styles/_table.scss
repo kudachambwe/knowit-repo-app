@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: $table-bg;
+}
+
+table,
+td, 
+th {
+    border-bottom: 1px solid $table-border;
+}
+
+th, 
+td {
+    padding: 1rem; 
+}
+
+th {
+    background-color: $table-header-bg;
+    color: $table-header-color; 
+    font-weight: bolder;
+    padding: 2rem .5rem;
+    font-size: 18px;
+}
+
+tr:hover {
+    background-color: lighten($color: $table-row__hover, $amount: 30%);
+    color: $table-row__hover-color; 
+}

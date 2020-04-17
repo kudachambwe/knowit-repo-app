@@ -1,0 +1,69 @@
+/* Theme Colors */
+$primary: #374641; 
+$secondary: #BD7D2B; 
+$accent: #F5F4F6;
+
+/* Base Colors */
+$black: #000000;
+$white: #FFFFFF;
+$grey: #BCBEC0;
+$grey-light: #DEDEDE;
+$grey-dark: #454545;
+
+/* Alert Colors */
+$red: #D0021B;
+$yellow: #F5A623;
+$green: #417505;
+
+/* Viewpoint Sizes */
+$tablet: "(min-width: 768px) and (max-width: 1023px)"; 
+$desktop: "(min-width: 1024px)"; 
+$phone: "(max-width: 767px)";
+
+/* Link Colors */
+$link-color: $secondary; 
+
+/* Button Colors */
+$button-color: $white;
+$button-bg: $secondary; 
+
+$button-color__hover: $primary;
+$button-bg__hover: $accent; 
+
+$button-border__hover: $primary; 
+
+/* */
+$default-font: 18px;
+$mobile-font: 14px;
+
+/* Link buttons */
+
+$link-color: $primary; 
+$link__visited: "lighten($secondary, 20%)"; 
+$link__hover: $accent; 
+$link__active: $primary;
+
+/* Table Colors */
+$table-border: $grey-light; 
+$table-bg: $white; 
+
+$table-header-bg: $secondary; 
+$table-header-color: $white; 
+
+$table-row-color: $primary; 
+
+$table-row__hover: $primary; 
+$table-row__hover-color: $white; 
+
+/* Pagination Colors */
+$pagination-color: $primary;
+$pagination-bg: $white; 
+$pagination-border: $secondary;  
+
+$pagination-bg__hover: $secondary;
+$pagination-color__hover: $white; 
+
+$pagination-bg__active: $secondary; 
+$pagination-color__active: $white;
+$pagination-border__active: $secondary; 
+
