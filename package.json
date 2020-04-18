@@ -11,7 +11,6 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -19,7 +18,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-css": "node-sass --include-path scss src/assets/styles/main.scss  public/css/main.css",
     "test": "react-scripts test",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.3"
   }
 }
